@@ -8,8 +8,8 @@ import sys
 
 # Complete the solve function below.
 def solve():
-        s=input()
-        s=list(s.split(" "))
-        for i in range(len(s)):
-            s[i]=str(s[i]).capitalize()
-        return " ".join(s)
+        string=input()
+        string=list(string.split(" "))
+        for i in range(len(string)):
+            string[i]=str(string[i]).capitalize()
+        return " ".join(string)
